@@ -1,0 +1,43 @@
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+#row2 {
+    background-color: orange;
+}
+#row2 :nth-child(-n+3) {
+    width: 100px;
+}
+#row1 :nth-child(n+2) {
+    background-color: #ffe75d;
+}
+
+.row3 :nth-child(n+4){
+    width: 150px;
+}
+h1 {
+    color: blue;
+}
+.thong_tin {
+    color: blue;
+}
+
+.table1 td {
+    width: 600px;
+}
+.thong_tin :nth-child(2){
+    text-align: right;
+}
+.table2 td{
+    border: 1px solid black;
+}
+.table2 th{
+    border: 1px solid black;
+}
